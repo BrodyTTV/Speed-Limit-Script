@@ -17,7 +17,7 @@ Citizen.CreateThread(function()
                 local distance = GetDistanceBetweenCoords(vehiclePosition.x, vehiclePosition.y, vehiclePosition.z, playerPosition.x, playerPosition.y, playerPosition.z, true)
 
                 if distance <= warningDistance then
-                    DrawText3D(vehiclePosition.x, vehiclePosition.y, vehiclePosition.z + 1.0, "~r~You are exceeding the speed limit!") -- Change tis to your liking.
+                    DrawText3D(vehiclePosition.x, vehiclePosition.y, vehiclePosition.z + 1.0, "~r~You are exceeding the speed limit!") -- Change this to your liking.
                 end
             end
         end
